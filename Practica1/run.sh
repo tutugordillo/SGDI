@@ -1,7 +1,7 @@
 #! /bin/bash
 
 HADOOP_DIR=/usr/local/hadoop-2.7.1 # Directorio donde está Hadoop
-CLASS_NAME=Indice_invertido # Nombre de la clase principal
+CLASS_NAME=ServidorWeb # Nombre de la clase principal
 
 # Limpiar compilaciones anteriores
 rm -rf *.class
