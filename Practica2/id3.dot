@@ -1,0 +1,25 @@
+digraph id3{ 
+n_0 [style=solid,color=red,label="tears"];
+n_0 -> n_2 [label="reduced"];
+n_2 [style=diagonals,color=green,label="no"];
+n_0 -> n_22 [label="normal"];
+n_22 [style=solid,color=red,label="astig"];
+n_22 -> n_15 [label="no"];
+n_15 [style=solid,color=red,label="age"];
+n_15 -> n_6 [label="young"];
+n_6 [style=diagonals,color=green,label="soft"];
+n_15 -> n_8 [label="pre_presbyopic"];
+n_8 [style=diagonals,color=green,label="soft"];
+n_15 -> n_14 [label="presbyopic"];
+n_14 [style=solid,color=red,label="specRx"];
+n_14 -> n_11 [label="myopia"];
+n_11 [style=diagonals,color=green,label="no"];
+n_14 -> n_13 [label="high_hypermetropia"];
+n_13 [style=diagonals,color=green,label="soft"];
+n_22 -> n_21 [label="yes"];
+n_21 [style=solid,color=red,label="specRx"];
+n_21 -> n_18 [label="myopia"];
+n_18 [style=diagonals,color=green,label="hard"];
+n_21 -> n_20 [label="high_hypermetropia"];
+n_20 [style=diagonals,color=green,label="hard"];
+}
